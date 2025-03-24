@@ -22,7 +22,7 @@
         .container {
             display: flex;
             width: 120%;
-            max-width: 800px;
+            max-width: 1500px;
             height: 90vh;
             background: white;
             color: #333;
