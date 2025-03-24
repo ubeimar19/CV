@@ -104,10 +104,11 @@
             color: white;
             padding: 8px;
             border-radius: 5px;
-            flex-wrap: wrap; /* Permite que los botones se ajusten si es necesario */
+            flex-wrap: nowrap; /* Asegura que los botones estén en una sola fila */
+            overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
         }
         .portfolio .tabs div {
-            flex: 1; /* Permite que los botones ocupen el mismo espacio */
+            flex: 0 0 auto; /* Evita que los botones se ajusten y permite que mantengan su tamaño */
             text-align: center;
             padding: 7px;
             cursor: pointer;
