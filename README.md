@@ -203,15 +203,16 @@
     <div class="container">
         <!-- Barra lateral -->
         <div class="sidebar">
-            <img src="https://media.licdn.com/dms/image/v2/D5603AQG94swsgQOi2w/profile-displayphoto-shrink_800_800/B56ZWpkc4.HEAc-/0/1742306660624?e=1747872000&v=beta&t=2i6QzcUG3ndJwR_lYk_sQKMRANE2fQw5mdITXlN16dc" alt="Foto de perfil">
+            <img src="" alt="Foto de perfil">
             <h2>Ubeimar Iván Herrera Cevallos</h2>
             <div class="contact-info">
                 <p><strong>Correo:</strong> <a href="mailto:ubeimar2121@gmail.com"><i class="fas fa-envelope"></i> ubeimar2121@gmail.com</a></p>
                 <p><strong>Teléfono:</strong> <a href="tel:+593998957995"><i class="fas fa-phone"></i> +593 998957995</a></p>
             </div>
+                      <br>
             <div class="links">
                 <h3>Links Externos</h3>
-                <a href="https://upecedu-my.sharepoint.com/:b:/g/personal/ubeimar_herrera_upec_edu_ec/EakKe0V2KCVKvblpLF4A83UB_ib-omnWHGvkNi7L7yHcAQ?e=dUliOH"><i> class="fas fa-file-pdf" style="color: #FF6F61;"></i> Hoja de vida PDF</a>
+                <a href="https://upecedu-my.sharepoint.com/:b:/g/personal/ubeimar_herrera_upec_edu_ec/EakKe0V2KCVKvblpLF4A83UB_ib-omnWHGvkNi7L7yHcAQ?e=dUliOH"><i class="fas fa-file-pdf" style="color: #FF6F61;"></i> Hoja de vida PDF</a>
                 <a href="https://www.linkedin.com/in/ubeimar-iván-herrera-cevallos-568b292a2/"><i class="fab fa-linkedin" style="color: #1E88E5;"></i> LinkedIn</a>
             </div>
         </div>
