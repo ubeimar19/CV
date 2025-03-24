@@ -348,7 +348,7 @@
                 </div>
                 <!-- Distinciones, Premios o Becas -->
                 <div id="premios" class="tab-content">
-                    <div class="year" onclick="toggleYear('pre11')">2024</div>
+                    <div class="year" onclick="toggleYear('pre11')">2025</div>
                     <div id="pre11" class="year-content">
                         <ul>
                             <li><i class="fas fa-trophy"></i> Beca Excelencia Académica</li>
