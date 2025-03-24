@@ -21,8 +21,9 @@
         }
         .container {
             display: flex;
+            flex-direction: row;
             width: 100%;
-            max-width: 1200px;
+            max-width: 1300px;
             height: auto;
             background: white;
             color: #333;
@@ -35,7 +36,7 @@
             background: #01084d;
             color: white;
             text-align: center;
-            padding: 30px;
+            padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -49,7 +50,7 @@
         }
         .main-content {
             width: 70%;
-            padding: 30px;
+            padding: 20px;
             overflow-y: auto;
         }
         .title {
@@ -129,6 +130,28 @@
             border-left: 3px solid #022b53;
             margin-top: 4px;
         }
+        /* Estilos para los enlaces externos */
+        .links {
+            display: flex;
+            flex-direction: column; /* Asegura que los enlaces estén uno debajo del otro */
+            align-items: center; /* Centra los enlaces */
+            margin-top: 20px;
+        }
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 0; /* Espaciado entre enlaces */
+            padding: 10px;
+            border: 1px solid transparent; /* Para que el área de clic sea más grande */
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+            width: 100%; /* Asegura que los enlaces ocupen todo el ancho disponible */
+            text-align: center; /* Centra el texto en los enlaces */
+        }
+        .links a:hover {
+            background: #FF6F61; /* Color de fondo al pasar el mouse */
+            color: white; /* Color del texto al pasar el mouse */
+        }
         /* Responsivo */
         @media (max-width: 768px) {
             .container {
@@ -152,6 +175,12 @@
             .title {
                 font-size: 22px; /* Ajustar el tamaño del título en móviles */
             }
+            .portfolio .tabs {
+                flex-direction: column; /* Cambiar a columna en móviles */
+            }
+            .portfolio .tabs div {
+                padding: 10px; /* Aumentar el padding para mejor clicabilidad */
+            }
         }
     </style>
 </head>
@@ -171,12 +200,13 @@
                 <a href="https://upecedu-my.sharepoint.com/:b:/g/personal/ubeimar_herrera_upec_edu_ec/EakKe0V2KCVKvblpLF4A83UB_ib-omnWHGvkNi7L7yHcAQ?e=dUliOH"><i class="fas fa-file-pdf" style="color: #FF6F61;"></i> Hoja de vida PDF</a>
                 <a href="https://www.linkedin.com/in/ubeimar-iván-herrera-cevallos-568b292a2/"><i class="fab fa-linkedin" style="color: #1E88E5;"></i> LinkedIn</a>
             </div>
+        </div>
         <!-- Sección Principal -->
         <div class="main-content">
             <div class="title">Hoja de Vida CV</div>
             <div class="bio">
                 <h2><i class="fas fa-user"></i> Biografía</h2>
-                <p>Tengo título de bachiller con formación técnica en Electromecánica Automotriz, Unidad Educativa Vicente Fierro. Cuento con título de tercer nivel de ingeniería en Logística y Transporte en la Universidad Politécnica Estatal del Carchi. He desarrollado habilidades en herramientas tecnológicas con conocimientos en mecánica automotriz, al igual cuento con conocimientos en logística, gestión de almacenes, inventarios, análisis de datos manejado de indicadores clave (KPIs), lo que me permite analizar y mejorar procesos en el ámbito del transporte y la gestión operativa. Intereses profesionales: gestión en cadena de suministros, optimización de rutas de transporte, gestión de inventarios y almacenamiento. Habilidad para trabajar en equipo, aprender rápidamente y resolver problemas de manera eficiente. Disponibilidad inmediata y flexibilidad para horarios y ubicación.</p>
+                <p>Cuento con título de bachiller con formación técnica en Electromecánica Automotriz, Unidad Educativa Vicente Fierro. Cuento con título de tercer nivel de ingeniería en Logística y Transporte en la Universidad Politécnica Estatal del Carchi. He desarrollado habilidades en herramientas tecnológicas con conocimientos en mecánica automotriz, al igual cuento con conocimientos en logística, gestión de almacenes, inventarios, análisis de datos manejado de indicadores clave (KPIs), lo que me permite analizar y mejorar procesos en el ámbito del transporte y la gestión operativa. Intereses profesionales: gestión en cadena de suministros, optimización de rutas de transporte, gestión de inventarios y almacenamiento. Habilidad para trabajar en equipo, aprender rápidamente y resolver problemas de manera eficiente. Disponibilidad inmediata y flexibilidad para horarios y ubicación.</p>
             </div>
             <div class="interests">
                 <h2><i class="fas fa-briefcase"></i> Intereses Profesionales</h2>
