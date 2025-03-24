@@ -21,7 +21,7 @@
         }
         .container {
             display: flex;
-            width: 100%;
+            width: 120%;
             max-width: 800px;
             height: 90vh;
             background: white;
