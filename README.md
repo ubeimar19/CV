@@ -222,17 +222,7 @@
             <div class="title">Hoja de Vida CV</div>
             <div class="bio">
                 <h2><i class="fas fa-user"></i> Biografía</h2>
-                <p>Tengo título de bachiller con formación técnica en Electromecánica
-                    Automotriz, Unidad Educativa Vicente Fierro. Cuento con título de tercer nivel de ingeniería en Logística
-                    y Transporte en la Universidad Politécnica Estatal del Carchi.
-                    He desarrollado habilidades en herramientas tecnológicas con conocimientos en mecánica automotriz,
-                    al igual cuento con conocimientos en logística, gestión de almacenes, inventarios, análisis de datos
-                    manejado de indicadores clave (KPIs), lo que me permite analizar y mejorar procesos en el ámbito del
-                    transporte y la gestión operativa. Intereses profesionales: gestión en cadena de suministros, optimización
-                    de rutas de transporte, gestión de inventarios y almacenamiento.
-                    Habilidad para trabajar en equipo, aprender rápidamente y resolver problemas de manera eficiente.
-                    Disponibilidad inmediata y flexibilidad para horarios y ubicación.
-                </p>
+                <p>Tengo título de bachiller con formación técnica en Electromecánica Automotriz, Unidad Educativa Vicente Fierro. Cuento con título de tercer nivel de ingeniería en Logística y Transporte en la Universidad Politécnica Estatal del Carchi. He desarrollado habilidades en herramientas tecnológicas con conocimientos en mecánica automotriz, al igual cuento con conocimientos en logística, gestión de almacenes, inventarios, análisis de datos manejado de indicadores clave (KPIs), lo que me permite analizar y mejorar procesos en el ámbito del transporte y la gestión operativa. Intereses profesionales: gestión en cadena de suministros, optimización de rutas de transporte, gestión de inventarios y almacenamiento. Habilidad para trabajar en equipo, aprender rápidamente y resolver problemas de manera eficiente. Disponibilidad inmediata y flexibilidad para horarios y ubicación.</p>
             </div>
             <div class="interests">
                 <h2><i class="fas fa-briefcase"></i> Intereses Profesionales</h2>
@@ -276,8 +266,7 @@
                     <div class="year" onclick="toggleYear('pi2025')">2025</div>
                     <div id="pi2025" class="year-content">
                         <ul>
-                            <li>Factores de riesgo para el transporte y la eficiencia logística en la empresa de transporte Ameex
-                                isCargo S.A. Universidad Politécnica Estatal del Carchi.</li>
+                            <li>Factores de riesgo para el transporte y la eficiencia logística en la empresa de transporte Ameex isCargo S.A. Universidad Politécnica Estatal del Carchi.</li>
                         </ul>
                     </div>
                 </div>
@@ -292,17 +281,14 @@
                     <div class="year" onclick="toggleYear('c2024')">2024</div>
                     <div id="c2024" class="year-content">
                         <ul>
-                            <li>Práctica en el llenado de declaraciones Aduaneras en el Sistema Aduanero. Duración: 10 horas.
-                                My Intelecto. Guayaquil, Ecuador. 12-24 de noviembre, 2024.</li>
-                            <li>Actividades Simultáneas Latinoamericanas de Estudiantes e Ingenieros Industriales. Duración: 6
-                                horas. Universidad del Istmo. Modalidad Virtual Panamá. 10 de mayo, 2024.</li>
+                            <li>Práctica en el llenado de declaraciones Aduaneras en el Sistema Aduanero. Duración: 10 horas. My Intelecto. Guayaquil, Ecuador. 12-24 de noviembre, 2024.</li>
+                            <li>Actividades Simultáneas Latinoamericanas de Estudiantes e Ingenieros Industriales. Duración: 6 horas. Universidad del Istmo. Modalidad Virtual Panamá. 10 de mayo, 2024.</li>
                         </ul>
                     </div>
                     <div class="year" onclick="toggleYear('c2022')">2022</div>
                     <div id="c2022" class="year-content">
                         <ul>
-                            <li>Introducción a la Realidad Virtual y Simulación. Duración: 40 horas. Universidad Politécnica
-                                Estatal del Carchi. Tulcán, Ecuador. 05 de mayo-26 de julio, 2022.</li>
+                            <li>Introducción a la Realidad Virtual y Simulación. Duración: 40 horas. Universidad Politécnica Estatal del Carchi. Tulcán, Ecuador. 05 de mayo-26 de julio, 2022.</li>
                         </ul>
                     </div>
                 </div>
@@ -326,9 +312,7 @@
                     <div class="year" onclick="toggleYear('col2024')">2024</div>
                     <div id="col2024" class="year-content">
                         <ul>
-                            <li>Proyecto de Vinculación con la Sociedad denominado “Diseño de rutas para el mejoramiento del
-                                servicio de transporte comercial, modalidad escolar e institucional con las operadoras domiciliadas
-                                en la ciudad de Tulcán”.</li>
+                            <li>Proyecto de Vinculación con la Sociedad denominado “Diseño de rutas para el mejoramiento del servicio de transporte comercial, modalidad escolar e institucional con las operadoras domiciliadas en la ciudad de Tulcán”.</li>
                         </ul>
                     </div>
                 </div>
@@ -350,8 +334,7 @@
                     <div class="year" onclick="toggleYear('expp')">Experiencia Profesional</div>
                     <div id="expp" class="year-content">
                         <ul>
-                            <li>2023: Prácticas preprofesionales en Encomiendas Ecuador S.A recolección y distribución en paquetería,
-                                digitación de guías.</li>           
+                            <li>2023: Prácticas preprofesionales en Encomiendas Ecuador S.A recolección y distribución en paquetería, digitación de guías.</li>    
                         </ul>
                     </div>
                 </div>
