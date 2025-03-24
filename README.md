@@ -79,18 +79,20 @@
         }
         .portfolio .tabs {
             display: flex;
-            justify-content: space-around;
+            flex-wrap: wrap; /* Permite que los botones se ajusten en varias líneas si es necesario */
+            justify-content: space-between; /* Espacio entre los botones */
             background: #160161;
             color: white;
             padding: 8px;
             border-radius: 5px;
         }
         .portfolio .tabs div {
-            flex: 1;
+            flex: 1 1 45%; /* Permite que los botones ocupen el 45% del ancho y se ajusten */
             text-align: center;
             padding: 7px;
             cursor: pointer;
             transition: background 0.3s, color 0.3s;
+            margin: 5px; /* Espaciado entre botones */
         }
         .portfolio .tabs div:hover {
             background: #5707d8;
@@ -180,6 +182,7 @@
             }
             .portfolio .tabs div {
                 padding: 10px; /* Aumentar el padding para mejor clicabilidad */
+                margin: 5px 0; /* Espaciado entre botones */
             }
         }
     </style>
