@@ -69,9 +69,10 @@
             padding-bottom: 5px;
             margin-bottom: 10px;
         }
-        .bio p, .interests ul {
+        .bio p {
             font-size: 14px;
             color: #333;
+            text-align: justify; /* Justificar el texto de la biografía */
         }
         .interests ul {
             list-style: none;
@@ -79,15 +80,15 @@
         }
         .portfolio .tabs {
             display: flex;
-            flex-wrap: wrap; /* Permite que los botones se ajusten en varias líneas si es necesario */
             justify-content: space-between; /* Espacio entre los botones */
             background: #160161;
             color: white;
             padding: 8px;
             border-radius: 5px;
+            flex-wrap: wrap; /* Permite que los botones se ajusten si es necesario */
         }
         .portfolio .tabs div {
-            flex: 1 1 45%; /* Permite que los botones ocupen el 45% del ancho y se ajusten */
+            flex: 1; /* Permite que los botones ocupen el mismo espacio */
             text-align: center;
             padding: 7px;
             cursor: pointer;
