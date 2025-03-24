@@ -74,9 +74,28 @@
             color: #333;
             text-align: justify; /* Justificar el texto de la biografía */
         }
+        .interests {
+            margin-bottom: 20px;
+        }
+        .interests h2 {
+            margin-bottom: 10px;
+        }
         .interests ul {
             list-style: none;
             padding-left: 0;
+            display: flex;
+            flex-direction: column; /* Alinear verticalmente */
+            align-items: flex-start; /* Alinear a la izquierda */
+        }
+        .interests li {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px; /* Espaciado entre los elementos de la lista */
+            display: flex; /* Usar flexbox para alinear icono y texto */
+            align-items: center; /* Centrar verticalmente el icono y el texto */
+        }
+        .interests li i {
+            margin-right: 8px; /* Espaciado entre el icono y el texto */
         }
         .portfolio .tabs {
             display: flex;
