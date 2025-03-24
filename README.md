@@ -203,7 +203,7 @@
     <div class="container">
         <!-- Barra lateral -->
         <div class="sidebar">
-            <img src="[](https://github.com/ubeimar19/CV/blob/main/foto%20perfl.jpeg)" alt="Foto de perfil">
+        <img src="https://raw.githubusercontent.com/ubeimar19/CV/main/foto%20perfl.jpeg" alt="Foto de perfil">
             <h2>Ubeimar Iván Herrera Cevallos</h2>
             <div class="contact-info">
                 <p><strong>Correo:</strong> <a href="mailto:ubeimar2121@gmail.com"><i class="fas fa-envelope"></i> ubeimar2121@gmail.com</a></p>
