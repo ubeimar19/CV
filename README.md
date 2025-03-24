@@ -22,7 +22,7 @@
         .container {
             display: flex;
             width: 100%;
-            max-width: 1300px;
+            max-width: 1200px;
             height: auto;
             background: white;
             color: #333;
@@ -166,7 +166,7 @@
                 <p><strong>Teléfono:</strong> <a href="tel:+593998957995"><i class="fas fa-phone"></i> +593 998957995</a></p>
             </div>
             <br>
-                       <div class="links">
+            <div class="links">
                 <h3>Links Externos</h3>
                 <a href="https://upecedu-my.sharepoint.com/:b:/g/personal/ubeimar_herrera_upec_edu_ec/EakKe0V2KCVKvblpLF4A83UB_ib-omnWHGvkNi7L7yHcAQ?e=dUliOH"<iclass="fas fa-file-pdf" style="color: #FF6F61;"></i> Hoja de vida PDF</a>
                 <a href="https://www.linkedin.com/in/ubeimar-iván-herrera-cevallos-568b292a2/"><i class="fab fa-linkedin" style="color: #1E88E5;"></i> LinkedIn</a>
