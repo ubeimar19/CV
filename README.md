@@ -15,49 +15,21 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background: #2c3e50;
             color: white;
         }
         .container {
             display: flex;
-            width: 120%;
-            max-width: 1200px;
-            height: 90vh;
+            width: 100%;
+            max-width: 1300px;
+            height: auto;
             background: white;
             color: #333;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         }
-        .contact-info, .links {
-            margin-top: 20px;
-            text-align: left;
-        }
-        .contact-info a, .links a {
-            color: rgb(207, 203, 203);
-            text-decoration: none;
-            display: block;
-            margin-top: 5px;
-        }
-        .contact-info a:hover, .links a:hover {
-            text-decoration: underline;
-        }
-        .bio h2, .interests h2, .portfolio h2 {
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-            color: #2c3e50;
-        }
-        .bio p, .interests ul {
-            font-size: 14px;
-            color: #333;
-        }
-        .interests ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        /* Barra lateral */
         .sidebar {
             width: 30%;
             background: #01084d;
@@ -75,27 +47,8 @@
             border: 3px solid white;
             margin-bottom: 15px;
         }
-        .sidebar h2 {
-            font-size: 22px;
-        }
-        .contact-info {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .contact-info p {
-            font-size: 14px;
-            margin: 5px 0;
-        }
-        .contact-info a {
-            color: white;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-        /* Contenido principal */
         .main-content {
-            width: 100%;
+            width: 70%;
             padding: 30px;
             overflow-y: auto;
         }
@@ -115,16 +68,14 @@
             padding-bottom: 5px;
             margin-bottom: 10px;
         }
-        .bio p {
-            font-size: 16px;
-            line-height: 1.5;
-            text-align: justify;
-        }
-        .interests li {
+        .bio p, .interests ul {
             font-size: 14px;
-            margin-bottom: 5px;
+            color: #333;
         }
-        /* Portafolio */
+        .interests ul {
+            list-style: none;
+            padding-left: 0;
+        }
         .portfolio .tabs {
             display: flex;
             justify-content: space-around;
@@ -158,7 +109,6 @@
         .tab-content.active {
             display: block;
         }
-        /* Botones de años */
         .year {
             background: #1e5f8a;
             padding: 8px;
@@ -183,7 +133,6 @@
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
-                height: auto;
             }
             .sidebar {
                 width: 100%;
@@ -193,8 +142,15 @@
                 width: 100%;
                 padding: 20px;
             }
-            .portfolio .tabs {
-                flex-direction: column;
+            .sidebar img {
+                width: 100px; /* Ajustar el tamaño de la imagen en móviles */
+                height: 100px;
+            }
+            .bio p, .interests li {
+                font-size: 12px; /* Ajustar el tamaño de la fuente en móviles */
+            }
+            .title {
+                font-size: 22px; /* Ajustar el tamaño del título en móviles */
             }
         }
     </style>
@@ -203,7 +159,7 @@
     <div class="container">
         <!-- Barra lateral -->
         <div class="sidebar">
-        <img src="https://raw.githubusercontent.com/ubeimar19/CV/main/foto%20perfl.jpeg" alt="Foto de perfil">
+            <img src="https://raw.githubusercontent.com/ubeimar19/CV/main/foto%20perfl.jpeg" alt="Foto de perfil">
             <h2>Ubeimar Iván Herrera Cevallos</h2>
             <div class="contact-info">
                 <p><strong>Correo:</strong> <a href="mailto:ubeimar2121@gmail.com"><i class="fas fa-envelope"></i> ubeimar2121@gmail.com</a></p>
