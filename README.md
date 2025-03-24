@@ -168,10 +168,10 @@
             <br>
             <div class="links">
                 <h3>Links Externos</h3>
-                <a href="https://upecedu-my.sharepoint.com/:b:/g/personal/ubeimar_herrera_upec_edu_ec/EakKe0V2KCVKvblpLF4A83UB_ib-omnWHGvkNi7L7yHcAQ?e=dUliOH"<iclass="fas fa-file-pdf" style="color: #FF6F61;"></i> Hoja de vida PDF</a>
+                <a href="https://upecedu-my.sharepoint.com/:b:/g/personal/ubeimar_herrera_upec_edu_ec/EakKe0V2KCVKvblpLF4A83UB_ib-omnWHGvkNi7L7yHcAQ?e=dUliOH">
+                    <i class="fas fa-file-pdf" style="color: #FF6F61;"></i> Hoja de vida PDF</a>
                 <a href="https://www.linkedin.com/in/ubeimar-iván-herrera-cevallos-568b292a2/"><i class="fab fa-linkedin" style="color: #1E88E5;"></i> LinkedIn</a>
             </div>
-        </div>
         <!-- Sección Principal -->
         <div class="main-content">
             <div class="title">Hoja de Vida CV</div>
