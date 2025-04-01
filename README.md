@@ -229,7 +229,7 @@
         <div class="main-content">
             <div class="title">Hoja de Vida CV</div>
             <div class="bio">
-                <h2><i class="fas fa-user"></i> Biografía</h2>
+                <h2><i class="fas fa-user"></i> Perfil Profesional</h2>
                 <p>Ingeniero en Logística y Transporte por la Universidad Politécnica Estatal del Carchi, con formación técnica en Electromecánica Automotriz obtenida en la Unidad Educativa Vicente Fierro. Especializado en el diseño, análisis y optimización de procesos logísticos relacionados con la gestión de la cadena de suministro, almacenamiento, distribución y transporte de bienes y servicios, con el fin de mejorar la eficiencia operativa, reducir costos y garantizar altos niveles de satisfacción del cliente.
 
 He desarrollado habilidades en herramientas tecnológicas con conocimientos en mecánica automotriz, al igual cuento con conocimientos en logística, gestión de almacenes, inventarios, análisis de datos manejado de indicadores clave (KPIs), lo que me permite analizar y mejorar procesos en el ámbito del transporte y la gestión operativa. Intereses profesionales: gestión en cadena de suministros, optimización de rutas de transporte, gestión de inventarios y almacenamiento
